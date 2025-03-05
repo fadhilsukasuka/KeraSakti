@@ -1,4 +1,3 @@
-/* Reset gaya default browser */
 * {
     margin: 0;
     padding: 0;
@@ -6,54 +5,49 @@
     font-family: Arial, sans-serif;
 }
 
-/* Gaya untuk body */
 body {
     background-color: #111;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
-/* Gaya untuk header */
 header {
     background-color: #222;
     padding: 15px;
     border-radius: 10px;
 }
 
-/* Gaya untuk tombol navigasi */
 nav a {
     text-decoration: none;
 }
 
 button {
-    background-color: #0800ff;
+    background-color: #ff0000;
     color: white;
     border: none;
     padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
+    margin: 10px;
+    border-radius: 80px;
     cursor: pointer;
     font-size: 16px;
     transition: 0.3s;
 }
 
 button:hover {
-    background-color: #0800ff;
+    background-color: #ff0000;
     transform: scale(1.1);
 }
 
-/* Gaya untuk logo */
 img {
     margin-top: 20px;
     border-radius: 10px;
-    border: 3px solid white;
+    
 }
 
-/* Gaya untuk footer */
 footer {
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #222;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 1px;
+    border-radius: 80px;
 }
