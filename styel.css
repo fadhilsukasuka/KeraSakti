@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #111;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 30px;
@@ -14,14 +14,16 @@ body {
 
 header {
     background-color: #222;
-    padding:1px;
+    padding:3px;
     border-radius: 0%;
+    margin: 10px;
+    height:50px;
 }
 
 
 header nav {
     display: flex;
-    gap: 15px; 
+    gap: 45px; 
 }
 
 button {
@@ -33,7 +35,8 @@ button {
     border-radius: 80px;
     cursor: pointer;
     font-size: 16px;
-    transition: 0.01s;
+    transition: 0.03s;
+    max-height: 100px;
 }
 
 button:hover {
